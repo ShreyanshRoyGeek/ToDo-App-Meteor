@@ -1,0 +1,53 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.container {
+  padding: unset;
+}
+
+.mcontainer {
+  width: 30%;
+  margin: auto;
+  height: 90vh;
+  border: 1px solid #222222;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .mcontainer {
+    width: 100% !important
+  }
+  
+}
+
+.note-wrapper {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.note-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.list-group{
+  height: 200vh;
+}
+
+.title {
+  padding: 5px;
+}
+
+#header {
+  margin-bottom: 51px;
+}
+
+.header_text {
+  margin-top: 18px;
+  /* margin-bottom: 10px; */
+}
+
+.del_button{
+  margin-left: 20px;
+}
